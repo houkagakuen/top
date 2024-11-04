@@ -1,1 +1,77 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>蜂窩学園</title>
+  <style>
+    /* ヘッダーの基本スタイル */
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 20px;
+      background-color: #f2f2f2;
+    }
+    
+    /* リンクのスタイル */
+    nav {
+      display: flex;
+      align-items: center;
+    }
+    
+    nav a {
+      text-decoration: none;
+      color: #333;
+      margin: 0 10px;
+      font-weight: bold;
+    }
+    
+    /* 縦の仕切り線 */
+    .separator {
+      content: "|";
+      margin: 0 8px;
+      color: #888;
+    }
+    
+    /* エンブレムのスタイル */
+    .emblem {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .emblem img {
+      width: 60px;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <!-- ヘッダー開始 -->
+  <header>
+    <!-- 左側のメニューリンク -->
+    <nav>
+      <a href="#about">学校概要</a>
+      <span class="separator">|</span>
+      <a href="#policy">教育方針</a>
+      <span class="separator">|</span>
+      <a href="#facilities">施設案内</a>
+    </nav>
 
+    <!-- 中央のエンブレム -->
+    <div class="emblem">
+      <img src="https://houkagakuen.github.io/top/emblem.png" alt="蜂窩学園のエンブレム">
+    </div>
+
+    <!-- 右側のメニューリンク -->
+    <nav>
+      <a href="#uniform">制服紹介</a>
+      <span class="separator">|</span>
+      <a href="#admission">入学案内</a>
+      <span class="separator">|</span>
+      <a href="#schedule">学園日課</a>
+    </nav>
+  </header>
+</body>
+</html>
